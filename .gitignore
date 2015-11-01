@@ -1,0 +1,8 @@
+
+*.npyc
+*.pyc
+tornado/uploads/*
+tornado/static/tmp/*
+
+
+!.gitkeep
