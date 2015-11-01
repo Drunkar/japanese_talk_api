@@ -3,7 +3,7 @@
 [program:tornado]
 user=tornado
 process_name=tornado
-command=/opt/conda/bin/python /app/tornado/app.py --debug=False
+command=/opt/conda/bin/python /app/japanese_talk_api/tornado/app.py --debug=False
 redirect_stderr=true
-stdout_logfile=/app/logs/stdout.log
+stdout_logfile=/app/japanese_talk_api/logs/stdout.log
  
