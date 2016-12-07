@@ -13,7 +13,7 @@ The Easiest way is use my docker image ( https://hub.docker.com/r/drunkar/cuda-c
 ```
 git clone https://github.com/Drunkar/japanese_talk_api.git
 
-docker run --name japanese_talk_api -d -p 80:8787 -v japanese_talk_api:/app drunkar/cuda-caffe-anaconda-chainer
+docker run --name japanese_talk_api -d -p 80:8787 -v `pwd`/japanese_talk_api:/app drunkar/cuda-caffe-anaconda-chainer
 
 docker exec -it japanese_talk_api bash
 cd /app/tornado/models
