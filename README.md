@@ -2,6 +2,10 @@
 
 ---
 
+# Reccomends to use newer one -> https://github.com/Drunkar/japanese_talk_api_transformer
+
+---
+
 **CAUTION**: Only available with Chainer 1.4.1 (Maybe 1.3.X and 1.4.X).
 
 ---
